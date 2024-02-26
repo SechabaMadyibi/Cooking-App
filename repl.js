@@ -3,7 +3,7 @@ const mongoose = require("mongoose"),
   Course = require("./models/course");
 var testCourse, testSubscriber;
 mongoose.connect(
-  "mongodb://127.0.0.1/confetti_cuisine",
+  "mongodb+srv://sechabamadyibi1:12345@cluster0.zshclj7.mongodb.net/CookingApp",
   { useNewUrlParser: true }
 );
 mongoose.set("useCreateIndex", true);
