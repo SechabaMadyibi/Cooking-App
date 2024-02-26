@@ -19,7 +19,7 @@ const express = require("express"),
   User = require("./models/user");
 
 mongoose.connect(
-  "mongodb+srv://sechabamadyibi1:12345@cluster0.zshclj7.mongodb.net/",
+  "mongodb://localhost:27017/confetti_cuisine",
   { useNewUrlParser: true }
 );
 mongoose.set("useCreateIndex", true);
